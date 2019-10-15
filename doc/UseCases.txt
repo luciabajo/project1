@@ -1,0 +1,20 @@
+Use Case: Add Product
+Common Case Flow: Add a new product to the database project1.db (table Products) by entering all four products'
+attributes in the GUI. After that, it shows an "adding success" dialog box.
+Exception Handling Flow: If a duplicated key (Product ID) exception or a Number Format exception is thrown, don't add
+the product and notify the user about the problem with a message (using a JOptionPane.showMessageDialog()) and allow
+the user to re-enter the data. The JTextField are not being cleared to facilitate the data re-entry.
+
+Use Case: Add Customer
+Common Case Flow: Add a new customer to the database project1.db (table Customers) by entering all four customers'
+attributes in the GUI. After that, it shows a "adding success" dialog box.
+Exception Handling Flow: If a duplicated key (Customer ID) exception or a Number Format exception is thrown, don't add
+the customer and notify the user about the problem with a message (using a JOptionPane.showMessageDialog()) and allow
+the user to re-enter the data. The JTextField are not being cleared to facilitate the data re-entry.
+
+Use Case: Add Purchase
+Common Case Flow: Add a new purchase to the database project1.db (table Purchases) by entering all four purchases'
+attributes in the GUI. After that, it prints the receipt on the screen.
+Exception Handling Flow: If a duplicated key (Purchase ID) exception or a Number Format exception is thrown, don't add
+the customer and notify the user about the problem with a message (using a JOptionPane.showMessageDialog()) and allow
+the user to re-enter the data. The JTextField are not being cleared to facilitate the data re-entry.
